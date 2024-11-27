@@ -20,7 +20,7 @@ The script uses an index file to store the byte offsets of each line, enabling q
 
 To retrieve a specific line from the input file, use the following command:
 
-python process_file.py <file_path> <line_index>
+    python process_file.py <file_path> <line_index>
 
     <file_path>: Path to the input file.
     <line_index>: Index of the line to retrieve (0-based).
@@ -29,6 +29,6 @@ python process_file.py <file_path> <line_index>
 
 To display the contents of the index file, use the following command:
 
-python process_file.py <file_path>
+    python process_file.py <file_path>
 
     <file_path>: Path to the input file.
